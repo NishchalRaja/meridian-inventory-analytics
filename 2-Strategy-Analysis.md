@@ -13,8 +13,8 @@ Meridian's leadership has flagged working-capital efficiency as a priority for t
 |---|---|---|---|
 | Cost | Low effort, high capital tie-up | Medium, one-time build | Medium-high, ongoing supplier coordination |
 | Speed to value | Fast | Fast | Slow (supplier onboarding) |
-| Addresses root cause | No — treats symptom only | Yes — targets reorder-point accuracy directly | Partially — shifts, doesn't solve, the planning problem |
-| Fit with working-capital priority | Poor — increases total inventory | Good — reallocates existing capital | Neutral — capital shifts off books but service risk remains |
+| Addresses root cause | No - treats symptom only | Yes - targets reorder-point accuracy directly | Partially - shifts, doesn't solve, the planning problem |
+| Fit with working-capital priority | Poor - increases total inventory | Good - reallocates existing capital | Neutral - capital shifts off books but service risk remains |
 
 ## 3. SWOT of Current Inventory Planning
 
