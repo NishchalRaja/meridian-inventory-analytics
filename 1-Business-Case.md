@@ -18,15 +18,15 @@ A 6-month analysis (Jan–Jun 2026) of Meridian's 10 highest- and lowest-velocit
 
 - **Lost sales from stockouts:** $443,569 over the 6-month sample, an estimated **$887,139 annualized** if the pattern continues (see the Dashboard tab and `Assumptions & Notes` tab in the workbook for the extrapolation method)
 - **Capital tied up in overstock:** an estimated **$41,984** worth of inventory sitting in just 5 slow-moving SKUs across 4 stores at any given time — capital that could instead fund safety stock for the SKUs actually driving demand
-- **Concentration of the problem:** Bedding is the single worst-affected category ($124,443 in 6-month lost sales), and the Cooling Bamboo Sheet Set (BED-201) alone accounts for $122,958 of that — the single highest-impact SKU in the dataset
+- **Concentration of the problem:** Bedding is the single worst-affected category ($124,443 in 6-month lost sales), and the Cooling Bamboo Sheet Set (BED-201) alone accounts for $122,958 of that, the single highest-impact SKU in the dataset
 
 ## 3. Options Considered
 
 | Option | Description | Cost | Speed to Value | Risk |
 |---|---|---|---|---|
-| **A — Raise safety stock across the board** | Increase reorder points uniformly for all SKUs | Low effort, but high capital cost | Fast | Worsens the overstock side of the problem |
-| **B — Data-driven reorder-point rebalancing** | Recalculate reorder points per SKU based on actual velocity; raise fast-mover safety stock, trim slow-mover allocation | Medium (one-time analytics + process build) | Fast | Requires reliable, regularly refreshed demand data |
-| **C — Vendor-managed inventory (VMI)** | Hand replenishment decisions to suppliers for top SKUs | Medium-high (supplier negotiation, integration) | Slow | Loses direct control; supplier lead times vary |
+| **A. Raise safety stock across the board** | Increase reorder points uniformly for all SKUs | Low effort, but high capital cost | Fast | Worsens the overstock side of the problem |
+| **B. Data-driven reorder-point rebalancing** | Recalculate reorder points per SKU based on actual velocity; raise fast-mover safety stock, trim slow-mover allocation | Medium (one-time analytics + process build) | Fast | Requires reliable, regularly refreshed demand data |
+| **C. Vendor-managed inventory (VMI)** | Hand replenishment decisions to suppliers for top SKUs | Medium-high (supplier negotiation, integration) | Slow | Loses direct control; supplier lead times vary |
 
 ## 4. Recommendation
 
