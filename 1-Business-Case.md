@@ -1,5 +1,5 @@
 # Business Case
-## Inventory Rebalancing — Meridian Home Goods
+## Inventory Rebalancing - Meridian Home Goods
 
 **Prepared by:** Nishchal Raja, Business Analyst
 **Company (simulated):** Meridian Home Goods — a fictional 4-store home goods retailer, used as the scenario for this case study
