@@ -1,5 +1,5 @@
 # Project Lifecycle
-## Inventory Rebalancing Strategy — Meridian Home Goods
+## Inventory Rebalancing Strategy - Meridian Home Goods
 
 A phase-gated lifecycle: diagnostic analysis and strategy were sequenced up front given the cross-category budget implications, while the model build and rollout ran in two-week increments.
 
