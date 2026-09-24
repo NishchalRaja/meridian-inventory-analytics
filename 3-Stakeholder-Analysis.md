@@ -1,5 +1,5 @@
 # Stakeholder Analysis
-## Inventory Rebalancing Strategy — Meridian Home Goods
+## Inventory Rebalancing Strategy - Meridian Home Goods
 
 ---
 
