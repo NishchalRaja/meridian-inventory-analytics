@@ -1,5 +1,5 @@
 # Business Requirements Document (BRD)
-## Velocity-Based Inventory Rebalancing — Meridian Home Goods
+## Velocity-Based Inventory Rebalancing - Meridian Home Goods
 
 **Prepared by:** Nishchal Raja, Business Analyst
 **Version:** 1.0 | **Status:** Approved for Development
