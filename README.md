@@ -1,4 +1,4 @@
-# Inventory Rebalancing — Meridian Home Goods
+# Inventory Rebalancing - Meridian Home Goods
 
 **Author:** Nishchal Raja | Business Analyst
 **Category:** Data Analysis / Business Case
@@ -7,13 +7,13 @@
 
 ---
 
-## 📋 Executive Summary
+## Executive Summary
 
 Meridian's best-selling SKUs were stocking out roughly 8 days a month while its slowest-moving SKUs sat overstocked, tying up capital. A 6-month analysis across 4 stores and 10 representative SKUs quantified the problem — an estimated $887,139 in annualized lost sales and $41,984 in tied-up capital — and this project built the full case for fixing it: diagnostic analytics, a business case, a strategy decision, stakeholder alignment, and a delivery-ready requirements package for a velocity-based inventory rebalancing model.
 
 ---
 
-## 🎯 Business Problem
+## Business Problem
 
 ### Context
 Meridian sets reorder points once per season and rarely revisits them against actual in-season sales velocity, across 4 stores and 5 product categories.
@@ -26,7 +26,7 @@ Rebalance reorder points to cut fast-mover stockouts roughly in half and reduce 
 
 ---
 
-## 📊 Methodology & Techniques Used
+##  Methodology & Techniques Used
 
 - **SKU/store/month-level data modeling** — built a 240-row dataset spanning 10 SKUs, 4 stores, and 6 months
 - **Formula-driven analysis in Excel** — SUMIF/AVERAGEIF aggregation by category, SKU, store, and month (see [`Inventory_Analytics.xlsx`](./Inventory_Analytics.xlsx))
@@ -38,7 +38,7 @@ Rebalance reorder points to cut fast-mover stockouts roughly in half and reduce 
 
 ---
 
-## 🔍 Key Findings
+##  Key Findings
 
 ### Finding 1: The stockout and overstock problems are two sides of the same root cause
 **Impact:** Reorder points don't reflect actual SKU velocity — fast movers are under-stocked and slow movers are over-stocked by the same static logic.
@@ -51,7 +51,7 @@ Rebalance reorder points to cut fast-mover stockouts roughly in half and reduce 
 
 ---
 
-## 💡 Recommendations
+##  Recommendations
 
 1. **Classify every SKU into a velocity tier** using trailing sales data, refreshed nightly (Sprint 1)
 2. **Recalculate reorder points per SKU per store**, weighted by tier, replacing the static seasonal approach (Sprint 1)
@@ -61,7 +61,7 @@ Full requirements in [BRD](./5-BRD.md) and delivery-ready backlog in [User Stori
 
 ---
 
-## 📈 Expected Impact
+##  Expected Impact
 
 | Metric | Current State | Target State | Impact |
 |---|---|---|---|
@@ -74,7 +74,7 @@ Full requirements in [BRD](./5-BRD.md) and delivery-ready backlog in [User Stori
 
 ---
 
-## 📁 Project Files
+##  Project Files
 
 Read in this order:
 
@@ -89,7 +89,7 @@ Read in this order:
 
 ---
 
-## 🛠️ Technical Details
+##  Technical Details
 
 ### Tools Used
 - **Excel:** Formula-driven analysis (SUMIF, AVERAGEIF, IFERROR), pivot-style summary tabs, and a chart dashboard
@@ -105,7 +105,7 @@ Read in this order:
 
 ---
 
-## 📝 Limitations & Caveats
+##  Limitations & Caveats
 
 - This is a simulated case study for portfolio purposes, not a real client engagement — the dataset is synthetic, constructed to be internally consistent rather than audited.
 - The 10-SKU sample is illustrative of a broader catalog pattern, not an exhaustive inventory audit.
@@ -113,7 +113,7 @@ Read in this order:
 
 ---
 
-## 🎓 Key Learnings
+##  Key Learnings
 
 1. Building the actual dataset and letting formulas compute the totals — rather than asserting round numbers — made the business case far more credible and easier to defend under questioning.
 2. The stockout and overstock problems looked unrelated at first glance but turned out to share one root cause, which changed the recommended fix from "buy more stock" to "reallocate existing stock."
@@ -121,14 +121,14 @@ Read in this order:
 
 ---
 
-## 📞 Contact & Questions
+##  Contact & Questions
 
 **Author:** Nishchal Raja
-**Email:** [your.email@example.com]
-**LinkedIn:** [Your LinkedIn profile]
+**Email:** [nishchalraja68@gmail.com]
+**LinkedIn:** [www.linkedin.com/in/nishchal-raja]
 
 ---
 
-## 📜 License & Usage
+##  License & Usage
 
 This analysis and recommendations are provided for educational and professional portfolio purposes.
